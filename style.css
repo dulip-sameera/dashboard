@@ -217,10 +217,35 @@ body {
 }
 
 .project-handler {
-    /* background-color: #087; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 13px;
+    gap: 20px;
 
     grid-column: 2/3;
     grid-row: 2/3;
+}
+
+
+.btn {
+    background: #1992d4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    padding: 10px;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #1992d4;
+    border: 1px solid #1992d4;
+    cursor: pointer;
 }
 
 /* main content */
