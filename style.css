@@ -187,6 +187,10 @@ body {
     grid-row: 2/3;
 }
 
+.greeting-statememt:hover {
+    cursor: default;
+}
+
 .pro-pic-greet {
     background: url("./assets/images/propic_80x80.jpg");
     width: 80px;
